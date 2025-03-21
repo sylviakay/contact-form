@@ -1,0 +1,126 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+:root {
+  --cloudblue: rgba(213, 235, 232, 0.904);
+  --armygreen: rgb(5, 112, 89);
+  --white: rgb(255, 255, 255);
+  --grey: var(--grey);
+}
+
+.my-background {
+  background-color: var(--cloudblue);
+  background-size: cover;
+  background-blend-mode: overlay;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 25px;
+}
+span {
+  color: red;
+}
+.box-1 {
+  background-color: var(--white);
+  width: 400px;
+  height: 550px;
+  margin: 50px auto;
+  padding: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px ridge rgb(209, 211, 214);
+}
+
+.name-box {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.my-mail {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+input {
+  width: 184px;
+  height: 30px;
+  border: 1px ridge grey;
+  border-radius: 5%;
+}
+
+.mail-input {
+  width: 400px;
+}
+.query-box {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.query {
+  display: flex;
+  gap: 30px;
+}
+
+.sup-enq {
+  display: flex;
+  border: 1px solid grey;
+  width: 184px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 5px;
+}
+
+.enq-radio {
+  width: 15px;
+  height: 15px;
+}
+
+.sup-radio {
+  width: 15px;
+  height: 15px;
+}
+
+.my-message {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.message-input {
+  width: 400px;
+  height: 150px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 12px;
+  margin-top: 30px;
+}
+
+button {
+  width: 405px;
+  height: 30px;
+  align-items: center;
+  background-color: var(--armygreen);
+  color: var(--white);
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: rgb(83, 143, 83);
+  color: black;
+}
